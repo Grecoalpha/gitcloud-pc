@@ -9,7 +9,7 @@ sudo apt install nodejs npm wget nano git lua5.3
 
 # Forward ports
 sudo npm install -g localtunnel
-sudo lt --port 80 --subdomain senkin &
+sudo lt --port 80 --subdomain senkin-80 &
 
 # Start this code automatically:
 chmod +x ./gettop.sh
